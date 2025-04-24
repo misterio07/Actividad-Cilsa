@@ -1,196 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .formulario-2 {
-            text-align: center;
-            justify-content: center;
-            background-color: #111111;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            color : #ad6a6a;
-            max-width: 50%;
-        }
-        .formulario-2 h1 {
-            color: #eee7e7;
-        }
-        .formulario-2 button {
-            color: #20201f;
-            font-size: small;
-            background-color: rgb(233, 229, 11);
-            border: none;
-            padding: 5px 10px;
-            border: 1px solid #000000;
-        }
-        .formulario {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            background-color: #f0f0f0;
-        }	
-    </style>
 </head>
+
 <body>
-    <!--- formulario N°1 -->
-    <div class="formulario">
-
-        <div class="formulario-1">
-
-    <h1>Formulario de Registro</h1>
-
-    <form action="">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" ><br><br>
-
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" ><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" ><br><br>
-
-        <label for="pais-residencia">País de Residencia:</label>
-        <input type="text" id="pais-residencia" name="pais-residencia" ><br><br>
-
-        <button type="submit">Enviar</button>
-        <br>
-        <button type="button" id="">Estilo 1</button>
-        <button type="button" id="">Estilo 2</button>
-    </div>
-</div>
-    <hr style="border: 1px solid #c47272; width: 90%; margin: 20px 20px;">
-   <!--Formulario N°2 --> 
-   <div class="formulario">
-    <div class="formulario-2">
-        <h1>Formulario de Registro</h1>
-    
-        <form action="">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" ><br><br>
-    
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" ><br><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" ><br><br>
-    
-            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" ><br><br>
-    
-            <label for="pais-residencia">País de Residencia:</label>
-            <input type="text" id="pais-residencia" name="pais-residencia" ><br><br>
-    
-            <button type="submit">Enviar</button>
-            <br>
-            <button type="button" id=""> Estilo 1</button>
-            <button type="button" id="">Estilo 2</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mis Actividades</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="ActividadN°1.html">Actividad N°1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Actividad N°4</a>
+              </li>
+            </ul>
+          </div>
         </div>
-   </div>
-   <hr style="border: 1px solid #c47272; width: 90%; margin: 20px 20px;">
-   <!--Formulario N°3 -->
-   <div class ="formulario">
-    <div class="formulario-2">
-        <h1>Formulario de Registro</h1>
-    
-        <form action="">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-    
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required><br><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-    
-            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br><br>
-    
-            <label for="pais-residencia">País de Residencia:</label>
-            <input type="text" id="pais-residencia" name="pais-residencia" re><br><br>
-    
-            <button type="submit">Enviar</button>
-            <br>
-            <button type="button" id=""> Estilo 1</button>
-            <button type="button" id="">Estilo 2</button>
-        </div>
-    </div>
-   </div>
-   <hr style="border: 1px solid #c47272; width: 90%; margin: 20px 20px;">
-    <!--Formulario N°4 -->
-    <div class="formulario">
-        <div class="formulario-2 formulario-4">
-            <h1>Formulario de Registro</h1>
-        
-            <form action="">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-        
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required><br><br>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-        
-                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br><br>
-        
-                <label for="pais-residencia">País de Residencia:</label>
-                <input type="text" id="pais-residencia" name="pais-residencia" required><br><br>
-        
-                <button type="submit">Enviar</button>
-                <br>
-                <button type="button" id="estilo-1"> Estilo 1</button>
-                <button type="button" id="estilo-2">Estilo 2</button>
+      </nav>
+    <section class="position-relative py-4 py-xl-5 ">
+        <div class="container position-relative ">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                    <div class="card mb-5">
+                        <div class="card-body p-sm-5 caja">
+                            <h2 class="text-center mb-4">Contact us</h2>
+                            <form id="formulario" novalidate method="post">
+                                
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <div class="mb-3">
+                                    <input id="nombre" class="form-control" type="text" name="Nombre"  />
+                                    <div class="mensaje-error">Debe tener al menos 4 letras y solo letras.</div>
+                                </div>
+                                
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <div class="mb-3">
+                                    <input id="apellido" class="form-control" type="text" name="Apellido" />
+                                    <div class="mensaje-error">Debe tener al menos 4 letras y solo letras.</div>
+                                </div>
+
+                                <label for="email" class="form-label">Email</label>
+                                <div class="mb-3"><input id="email" class="form-control" type="email" name="email" placeholder="Email" />
+                                <div class="mensaje-error">Ingrese un email válido.</div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                                    <input type="date" class="form-control" id="fechaNacimiento"  required>
+                                    <div class="mensaje-error">Debe ser mayor de 18 años.</div>
+                                </div>
+                                
+                                  <div class ="mb-3">
+                                    <label for="pais-residencia">País de residencia</label>
+                                    <select class="form-select" id="paisResidencia" required>
+                                        <option value="" disabled selected>Selecciona un país</option>
+                                        <option value="argentina">Argentina</option>
+                                        <option value="chile">Chile</option>
+                                        <option value="colombia">Colombia</option>
+                                        <option value="peru">Perú</option>
+                                    </select>
+                                    <div class="mensaje-error">Seleccione un país.</div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-center ">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                    
+                                </div>
+                                <div class="text-center mt-3">
+                                    <div id="mensajeExito" class="alert alert-success">Datos cargados correctamente</div>
+                                  </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <hr style="border: 1px solid #c47272; width: 90%; margin: 20px 20px;">
-        <script > /* validacion de formulario N°4 */
-            document.addEventListener("DOMContentLoaded", function() {
-                const form = document.querySelector(".formulario-4 form");
-                form.addEventListener("submit", function(event) {
-                    event.preventDefault(); 
+        <div class ="d-flex justify-content-center gap-2">
+            <button type="button" class="btn btn-outline-secondary claro" onclick="activarEstilo('claro')">Tema Claro</button>
+                <button type="button" class="btn btn-dark" onclick="activarEstilo('oscuro')">Tema Oscuro</button>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 
-                    // Validar campos
-                    const nombre = document.getElementById("nombre").value;
-                    const apellido = document.getElementById("apellido").value;
-                    const email = document.getElementById("email").value;
-                    const fechaNacimiento = document.getElementById("fecha-nacimiento").value;
-                    const paisResidencia = document.getElementById("pais-residencia").value;
-
-                    if (nombre === "" || apellido === "" || email === "" || fechaNacimiento === "" || paisResidencia === "") {
-                        alert("Por favor, completa todos los campos.");
-                        return;
-                    }
-
-                    
-                    alert("Formulario enviado con éxito!");
-                });
-            });
-            /* cambio de estilos de botones 1 y 2 */
-            document.getElementById("estilo-1").addEventListener("click", function() {
-                const formulario = document.querySelector(".formulario-4");
-                formulario.style.backgroundColor = "#f0f0f0";
-                formulario.style.color = "#fffff";
-                
-                formulario.style.border = "1px solid #000000";
-                
-                const h1 = formulario.querySelector("h1");
-                h1.style.color = "#ad6a6a";
-            });
-            document.getElementById("estilo-2").addEventListener("click", function() {
-                const formulario = document.querySelector(".formulario-4");
-                formulario.style.backgroundColor = "#111111";
-                formulario.style.color = "#ad6a6a";
-            });
-        </script>
-
+    
 </body>
+
 </html>
